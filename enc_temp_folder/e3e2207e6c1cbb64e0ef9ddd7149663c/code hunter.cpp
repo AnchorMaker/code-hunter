@@ -11,7 +11,7 @@ using namespace std;
 int main()
 {
 	string textToAnalyze;
-	//int foo = 0
+	int foo = 0;
 	int vowels = 0;
 	int consonants = 0;
 	int digits = 0;
@@ -19,7 +19,6 @@ int main()
 	int lengthOfStringSubmittedForAnalysis = 0;
 	int unknownCharacters = 0;
 	int checkSum = 0;
-	//int bar = 0
 
 	cout << "Welcome to the CIA code Hunter Program!" << endl;
 	cout << "Please type in text to analyze: " << endl;
@@ -32,11 +31,11 @@ int main()
 			textToAnalyze[i] == 'E' || textToAnalyze[i] == 'I' || textToAnalyze[i] == 'O' ||
 			textToAnalyze[i] == 'U')
 		{
-			++vowels; //counter was set to count negativly instead of positvely
+			++vowels;
 		}
 		else if ((textToAnalyze[i] >= 'a'&& textToAnalyze[i] <= 'z') || (textToAnalyze[i] >= 'A'&& textToAnalyze[i] <= 'Z'))
 		{
-			++consonants; //the counter was commmented out
+			++consonants;
 		}
 		else if (textToAnalyze[i] >= '0' && textToAnalyze[i] <= '9')
 		{
