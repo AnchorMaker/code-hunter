@@ -11,7 +11,7 @@ using namespace std;
 int main()
 {
 	string textToAnalyze;
-	//int foo = 0
+	//int foo = 0;
 	int vowels = 0;
 	int consonants = 0;
 	int digits = 0;
@@ -19,7 +19,7 @@ int main()
 	int lengthOfStringSubmittedForAnalysis = 0;
 	int unknownCharacters = 0;
 	int checkSum = 0;
-	//int bar = 0
+	//int bar = 0;
 
 	cout << "Welcome to the CIA code Hunter Program!" << endl;
 	cout << "Please type in text to analyze: " << endl;
